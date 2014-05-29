@@ -1,0 +1,56 @@
+{
+   "abstract" : "Convert PATH type environment variables to spaceless versions",
+   "author" : [
+      "Graham Ollis <plicease@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141170",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-spaceless",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Shell::Config::Generate" : "0.17",
+            "Shell::Guess" : "0",
+            "perl" : "v5.10.0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Capture::Tiny" : "0",
+            "Path::Class" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/plicease/app-spaceless/issues"
+      },
+      "homepage" : "http://perl.wdlabs.com/App-spaceless/",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/plicease/app-spaceless.git",
+         "web" : "https://github.com/plicease/app-spaceless"
+      }
+   },
+   "version" : "0.03"
+}
+
