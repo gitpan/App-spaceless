@@ -6,7 +6,7 @@ use App::spaceless;
 
 # PODNAME: spaceless
 # ABSTRACT: Remove spaces and other hazards from your PATH 
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 
 exit App::spaceless->main(@ARGV);
@@ -23,7 +23,7 @@ spaceless - Remove spaces and other hazards from your PATH
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 

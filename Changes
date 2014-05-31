@@ -1,5 +1,9 @@
 Revision history for App-spaceless
 
+0.04      2014-05-31 06:37:09 -0400
+  - bump version requirement for Shell::Guess to 0.04
+    to avoid infrequent test failure
+
 0.03      2014-05-29 07:43:32 -0400
   - first CPAN release
   - added --login option

@@ -27,7 +27,7 @@
       "runtime" : {
          "requires" : {
             "Shell::Config::Generate" : "0.17",
-            "Shell::Guess" : "0",
+            "Shell::Guess" : "0.04",
             "perl" : "v5.10.0"
          }
       },
@@ -51,6 +51,6 @@
          "web" : "https://github.com/plicease/app-spaceless"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
 

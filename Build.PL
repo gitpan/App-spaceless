@@ -18,14 +18,14 @@ my %module_build_args = (
     "Graham Ollis <plicease\@cpan.org>"
   ],
   "dist_name" => "App-spaceless",
-  "dist_version" => "0.03",
+  "dist_version" => "0.04",
   "license" => "perl",
   "module_name" => "App::spaceless",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
     "Shell::Config::Generate" => "0.17",
-    "Shell::Guess" => 0,
+    "Shell::Guess" => "0.04",
     "perl" => "v5.10.0"
   },
   "script_files" => [
