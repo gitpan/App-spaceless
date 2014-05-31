@@ -24,4 +24,4 @@ resources:
   bugtracker: https://github.com/plicease/app-spaceless/issues
   homepage: http://perl.wdlabs.com/App-spaceless/
   repository: git://github.com/plicease/app-spaceless.git
-version: '0.04'
+version: '0.05'
