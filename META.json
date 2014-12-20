@@ -4,7 +4,7 @@
       "Graham Ollis <plicease@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141170",
+   "generated_by" : "Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -16,41 +16,43 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Module::Build" : "0.3601"
+            "Module::Build" : "0.28"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.3601"
+            "Module::Build" : "0.28",
+            "perl" : "5.010001"
          }
       },
       "runtime" : {
          "requires" : {
             "Shell::Config::Generate" : "0.17",
             "Shell::Guess" : "0.04",
-            "perl" : "v5.10.0"
+            "perl" : "5.010001"
          }
       },
       "test" : {
          "requires" : {
             "Capture::Tiny" : "0",
-            "Path::Class" : "0",
-            "Test::More" : "0"
+            "Path::Class" : "0.26",
+            "Test::More" : "0.94",
+            "perl" : "5.010001"
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/plicease/app-spaceless/issues"
+         "web" : "https://github.com/plicease/App-spaceless/issues"
       },
-      "homepage" : "http://perl.wdlabs.com/App-spaceless/",
+      "homepage" : "http://perl.wdlabs.com/App-spaceless",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/plicease/app-spaceless.git",
-         "web" : "https://github.com/plicease/app-spaceless"
+         "url" : "git://github.com/plicease/App-spaceless.git",
+         "web" : "https://github.com/plicease/App-spaceless"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }
 

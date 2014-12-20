@@ -2,7 +2,7 @@ package App::spaceless;
 
 use strict;
 use warnings;
-use v5.10;
+use 5.010001;
 use Config;
 use Shell::Guess;
 use Shell::Config::Generate qw( win32_space_be_gone );
@@ -10,7 +10,7 @@ use Getopt::Long qw( GetOptions );
 use Pod::Usage qw( pod2usage );
 
 # ABSTRACT: Convert PATH type environment variables to spaceless versions
-our $VERSION = '0.05'; # VERSION
+our $VERSION = '0.06'; # VERSION
 
 
 sub _running_shell
@@ -128,7 +128,7 @@ App::spaceless - Convert PATH type environment variables to spaceless versions
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 DESCRIPTION
 
